@@ -1,0 +1,20 @@
+.app {
+    width: 250px;
+    margin: auto;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px 1px rgba(85, 85, 85, 0.2), 2px 2px 2px 1px rgba(83, 83, 83, 0.19);
+    gap: 5px;
+}
+
+.itemList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding: 10px;
+}
